@@ -75,7 +75,7 @@ class MainActivity : AppCompatActivity() {
         recyclerView.adapter = adapter
         recyclerView.layoutManager = LinearLayoutManager(this)
 
-        val adapterSpinner = ArrayAdapter(this, android.R.layout.simple_spinner_item, categorias)
+        val adapterSpinner = ArrayAdapter(this, R.layout.spinner_item, categorias)
         adapterSpinner.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
         spinner.adapter = adapterSpinner
 
