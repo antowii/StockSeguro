@@ -28,6 +28,7 @@
             android:id="@+id/txtNombre"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="7dp"
             android:text="Titulo"
             android:textStyle="bold"
             android:layout_toEndOf="@id/imageviewFoto"
@@ -40,12 +41,15 @@
             android:id="@+id/txtDescripcion"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Descripcion"
-            android:textStyle="normal"
+            android:layout_below="@+id/txtNombre"
+            android:layout_marginStart="7dp"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="13dp"
             android:layout_toEndOf="@id/imageviewFoto"
             android:layout_toRightOf="@id/imageviewFoto"
-            android:layout_below="@+id/txtNombre"
-            android:textSize="14dp" />
+            android:text="Descripcion"
+            android:textSize="14dp"
+            android:textStyle="normal" />
 
 
     </RelativeLayout>
