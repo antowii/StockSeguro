@@ -40,7 +40,7 @@ class ElementosAdapter(private var elementos: List<Elementos>) : RecyclerView.Ad
             // Configurar los elementos de la vista usando el elemento y el diseño card_layout.xml
             elementoTextView.text = elemento.nombre
             descripcionTextView.text = elemento.descripcion
-            // Configurar la imagen, si tienes una propiedad de imagen en tu diseño card_layout.xml
+            // Configurar la imagen en card_layout.xml
             fotoImageView.setImageResource(elemento.imagen)
         }
     }

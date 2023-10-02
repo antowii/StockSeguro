@@ -40,22 +40,22 @@ class MainActivity : AppCompatActivity() {
             Elementos("Lechuga", R.drawable.lechuga, "Lechuga Escarola Punto Azul, 1 Unidad"),
             Elementos("Naranjas", R.drawable.naranjas, "Naranjas Pangalillo, 1.5kg"),
             Elementos("Paltas", R.drawable.paltas, "Palta Hass Malla, 700 g"),
-            Elementos("Papas", R.drawable.papas, "Papas Nativas, 1kg"),
-            Elementos("Plátanos", R.drawable.platanos, "Plátanos Maduros, 6 unidades")
+            Elementos("Papas", R.drawable.papas, "Papas Granel, 500 g (5 a 6 un aprox)"),
+            Elementos("Plátanos", R.drawable.platanos, "Plátano Granel, 500 g (3 a 4 un aprox)")
         ),
         "Frescos y Lácteos" to listOf(
-            Elementos("Leche", R.drawable.leche, "Leche Descremada, 1 litro"),
-            Elementos("Queso", R.drawable.queso, "Queso Gouda, 200g"),
-            Elementos("Yogurt", R.drawable.yoghurt, "Yogurt Natural, 150g"),
-            Elementos("Huevos", R.drawable.huevos, "Huevos Frescos, 12 unidades"),
-            Elementos("Salame", R.drawable.salame, "Salame Milano, 250g")
+            Elementos("Leche", R.drawable.leche, "Leche Natural Entera Soprole, 1lt"),
+            Elementos("Queso", R.drawable.queso, "Queso Laminado Gauda Soprole, 500g"),
+            Elementos("Yoghurt", R.drawable.yoghurt, "Yoghurt Batido Gold Frutos Secos Tradicional Soprole, 165g"),
+            Elementos("Huevos", R.drawable.huevos, "Huevos de Gallina Libre Grande Color Selección, 6 Unidades"),
+            Elementos("Salame", R.drawable.salame, "Salame Artesanal Receta Del Abuelo, 100g")
         ),
         "Limpieza y Aseo" to listOf(
-            Elementos("Cloro", R.drawable.cloro, "Cloro Limpieza, 1 litro"),
-            Elementos("Confort", R.drawable.confort, "Papel Higiénico Confort, 4 rollos"),
-            Elementos("Detergente", R.drawable.detergente, "Detergente Líquido, 500ml"),
-            Elementos("Escoba", R.drawable.escoba, "Escoba de Cerdas Plásticas"),
-            Elementos("Lavaloza", R.drawable.lavaloza, "Jabón Lavaloza, 500ml")
+            Elementos("Cloro", R.drawable.cloro, "Cloro gel tradicional, 900 ml"),
+            Elementos("Confort", R.drawable.confort, "Papel Higiénico Doble Hoja 25 mt, 40 Unidades"),
+            Elementos("Suavizante", R.drawable.detergente, "Suavizante Fuzol, 1500 ml"),
+            Elementos("Escoba", R.drawable.escoba, "Escobillón Piso Flotante, 1 Unidad"),
+            Elementos("Lavaloza", R.drawable.lavaloza, "Lavaloza Limón Doypack, 1 Litro")
         )
     )
 
